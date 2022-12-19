@@ -1,0 +1,13 @@
+public string GetToken()
+    {
+      var tokenHandler = new JwtSecurityTokenHandler();
+
+      var key = Encoding.ASCII.GetBytes(_config[Constants.AppSettings.JWTSecret]);
+      var tokenDescriptor = new SecurityTokenDescriptor
+      {
+        Expires = DateTime.UtcNow.AddYears(10),
+        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+      };
+      var token = tokenHandler.CreateToken(tokenDescriptor);
+      return tokenHandler.WriteToken(token);
+    }
