@@ -26,7 +26,7 @@ namespace microsvc.services.DbRepos.Order
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlite("DataSource=C:\\sources\\repos\\microsvc\\microsvc.services\\SqLiteDBs\\order.sqlite");
+                optionsBuilder.UseSqlite("DataSource=C:\\repos\\microsvc\\microsvc.services\\SqLiteDBs\\order.sqlite");
             }
         }
 

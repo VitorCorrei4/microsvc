@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microsvc.web", "microsvc.we
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microsvc.services", "microsvc.services\microsvc.services.csproj", "{5E9A5733-DBC0-455B-8166-46BC59B67E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microsvc.servicesTests", "microsvc.servicesTests\microsvc.servicesTests.csproj", "{A1DA7316-85A1-46EC-8497-15651D56555F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microsvc.servicesTests", "microsvc.servicesTests\microsvc.servicesTests.csproj", "{A1DA7316-85A1-46EC-8497-15651D56555F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fop", "..\FopExtend\src\Fop.csproj", "{E0F97049-C81C-47D4-B47F-382E2A5046F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A1DA7316-85A1-46EC-8497-15651D56555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1DA7316-85A1-46EC-8497-15651D56555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1DA7316-85A1-46EC-8497-15651D56555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F97049-C81C-47D4-B47F-382E2A5046F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F97049-C81C-47D4-B47F-382E2A5046F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F97049-C81C-47D4-B47F-382E2A5046F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F97049-C81C-47D4-B47F-382E2A5046F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
